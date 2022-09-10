@@ -1,0 +1,66 @@
+*{
+margin: 10px;
+padding: 10px;
+box-sizing: border-box;
+}
+body{
+    color: white;
+}
+
+#red{
+background-color: red;
+}
+#green{
+background-color: green;
+}
+#blue{
+background-color: blue;
+}
+#black{
+
+background-color: black;
+}
+#red,#green,#blue,#black{
+    width: 70px;
+    height: 70px;
+    margin: 20px;
+    cursor: pointer;
+    border-left: solid 5px white;
+    border-right: solid 5px white;
+    border-radius: 50%;
+}
+.images{
+    display: flex;
+    justify-content: space-around;
+}
+
+.images img{
+    cursor: pointer;
+    border-radius: 20px;
+    width: 19%;
+    
+}
+.imh{
+    background-color: white;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+.imh #image{
+width: 60%;
+}
+.imh h1{
+    color: black;
+}
+.colors{
+    display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 90%;
+            margin: 0 auto;
+}
+.name{
+    background-color:turquoise;
+}
